@@ -1,0 +1,10 @@
+services:
+  fabric:
+    build: .
+    container_name: fabric-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+      - ./.env:/data/.env
+    restart: unless-stopped
