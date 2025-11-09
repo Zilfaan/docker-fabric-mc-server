@@ -45,7 +45,7 @@ docker compose up -d
 
 ### 4. Adding mods/changing configs
 
-All the usual fabric server files can be found in the ./data directory which gets creating after running the docker image
+All the usual fabric server files can be found in the ./data directory which gets created after running the docker image
 
 ## 📂 Folder Structure
 
